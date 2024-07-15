@@ -6,9 +6,12 @@ import {
 	ScrollView,
 	Button,
 	Image,
+	Dimensions,
 } from "react-native";
-
+import PdfRead from "./indexs";
 export default function App() {
+	const PdfResource = { uri: "www.example.com/pdf", cache: true };
+
 	return (
 		<ScrollView style={styles.container}>
 			<View style={styles.header}>
@@ -34,14 +37,19 @@ export default function App() {
 					<Text style={styles.tableHeaderText}>Notes by Faculties</Text>
 				</View>
 				{Array.from({ length: 10 }).map((_, index) => (
-					<View key={index} style={styles.tableRow}>
-						<Text style={styles.courseName}>Course_{index + 1} Name</Text>
-						<View style={styles.links}>
-							<Text style={styles.link}>Link1</Text>
-							<Text style={styles.link}>Link2</Text>
-							<Text style={styles.link}>Link3</Text>
+					<>
+						{/* <View key={index} style={styles.tableRow}>
+							<Text style={styles.courseName}>Course_{index + 1} Name</Text>
+							<View style={styles.links}>
+								<Text style={styles.link}>Link1</Text>
+								<Text style={styles.link}>Link2</Text>
+								<Text style={styles.link}>Link3</Text>
+							</View>
+						</View> */}
+						<View key={index} style={styles.container}>
+							<PdfRead />
 						</View>
-					</View>
+					</>
 				))}
 			</View>
 		</ScrollView>
@@ -49,6 +57,18 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+	pdf: {
+		flex: 1,
+		width: Dimensions.get("window").width,
+		height: Dimensions.get("window").height,
+	},
+	container1: {
+		flex: 1,
+		justifyContent: "flex-start",
+		alignItems: "center",
+		marginTop: 25,
+	},
+
 	container: {
 		flex: 1,
 		backgroundColor: "#fff",

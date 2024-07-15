@@ -1,4 +1,5 @@
 import { Text, View } from "react-native";
+import "expo-dev-client";
 
 import { Redirect } from "expo-router";
 
