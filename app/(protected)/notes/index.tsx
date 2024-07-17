@@ -7,8 +7,12 @@ import {
 	Button,
 	Image,
 	Dimensions,
+	TouchableOpacity,
+	Pressable,
 } from "react-native";
-import PdfRead from "./indexs";
+import { Link } from "expo-router";
+
+import PdfRead from "./preview";
 export default function App() {
 	const PdfResource = { uri: "www.example.com/pdf", cache: true };
 
@@ -23,7 +27,11 @@ export default function App() {
 				/>
 
 				<Text style={styles.title}>Student Companion</Text>
-				<Button title="Dashboard" onPress={() => {}} />
+				<Link href="/dashboard" asChild>
+					<Pressable>
+						<Text style={styles.button}>Dashboard</Text>
+					</Pressable>
+				</Link>
 			</View>
 			<Text style={styles.subTitle}>Notes Collection</Text>
 			<Text style={styles.description}>
@@ -38,16 +46,25 @@ export default function App() {
 				</View>
 				{Array.from({ length: 10 }).map((_, index) => (
 					<>
-						{/* <View key={index} style={styles.tableRow}>
+						<View key={index} style={styles.tableRow}>
 							<Text style={styles.courseName}>Course_{index + 1} Name</Text>
 							<View style={styles.links}>
-								<Text style={styles.link}>Link1</Text>
-								<Text style={styles.link}>Link2</Text>
-								<Text style={styles.link}>Link3</Text>
+								<Link href="/display/0" asChild>
+									<Pressable>
+										<Text style={styles.link}>Link3</Text>
+									</Pressable>
+								</Link>
+								<Link href="/display/0" asChild>
+									<Pressable>
+										<Text style={styles.link}>Link3</Text>
+									</Pressable>
+								</Link>
+								<Link href="/display/0" asChild>
+									<Pressable>
+										<Text style={styles.link}>Link3</Text>
+									</Pressable>
+								</Link>
 							</View>
-						</View> */}
-						<View key={index} style={styles.container}>
-							<PdfRead />
 						</View>
 					</>
 				))}
@@ -57,6 +74,14 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+	button: {
+		backgroundColor: "#3498db",
+		paddingVertical: 10,
+		paddingHorizontal: 20,
+		borderRadius: 5,
+		alignItems: "center",
+	},
+
 	pdf: {
 		flex: 1,
 		width: Dimensions.get("window").width,

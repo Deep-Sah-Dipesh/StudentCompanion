@@ -1,0 +1,873 @@
+{
+	"folders": {
+		"Semester 1": {
+			"folders": {
+				"Chemistry": {
+					"folders": {
+						"Notes": {
+							"folders": {},
+							"files": [
+								"Unit (1).pdf",
+								"Unit (2).pdf",
+								"Unit (3).pdf",
+								"Unit (4).pdf",
+								"Unit (5).pdf"
+							]
+						},
+						"PYQs": {
+							"folders": {},
+							"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+						},
+						"Syllabus": {
+							"folders": {},
+							"files": ["Syllabus.pdf"]
+						}
+					},
+					"files": []
+				},
+				"Electrical Engg": {
+					"folders": {
+						"Notes": {
+							"folders": {},
+							"files": [
+								"Unit (1).pdf",
+								"Unit (2).pdf",
+								"Unit (3).pdf",
+								"Unit (4).pdf",
+								"Unit (5).pdf"
+							]
+						},
+						"PYQs": {
+							"folders": {},
+							"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+						},
+						"Syllabus": {
+							"folders": {},
+							"files": ["Syllabus.pdf"]
+						}
+					},
+					"files": []
+				},
+				"English 1": {
+					"folders": {
+						"Notes": {
+							"folders": {},
+							"files": [
+								"Unit (1).pdf",
+								"Unit (2).pdf",
+								"Unit (3).pdf",
+								"Unit (4).pdf",
+								"Unit (5).pdf"
+							]
+						},
+						"PYQs": {
+							"folders": {},
+							"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+						},
+						"Syllabus": {
+							"folders": {},
+							"files": ["Syllabus.pdf"]
+						}
+					},
+					"files": []
+				},
+				"INC": {
+					"folders": {
+						"Notes": {
+							"folders": {},
+							"files": [
+								"Unit (1).pdf",
+								"Unit (2).pdf",
+								"Unit (3).pdf",
+								"Unit (4).pdf",
+								"Unit (5).pdf"
+							]
+						},
+						"PYQs": {
+							"folders": {},
+							"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+						},
+						"Syllabus": {
+							"folders": {},
+							"files": ["Syllabus.pdf"]
+						}
+					},
+					"files": []
+				},
+				"Maths 1": {
+					"folders": {
+						"Notes": {
+							"folders": {},
+							"files": [
+								"Unit (1).pdf",
+								"Unit (2).pdf",
+								"Unit (3).pdf",
+								"Unit (4).pdf",
+								"Unit (5).pdf"
+							]
+						},
+						"PYQs": {
+							"folders": {},
+							"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+						},
+						"Syllabus": {
+							"folders": {},
+							"files": ["Syllabus.pdf"]
+						}
+					},
+					"files": []
+				},
+				"SFH": {
+					"folders": {
+						"Notes": {
+							"folders": {},
+							"files": [
+								"Unit (1).pdf",
+								"Unit (2).pdf",
+								"Unit (3).pdf",
+								"Unit (4).pdf",
+								"Unit (5).pdf"
+							]
+						},
+						"PYQs": {
+							"folders": {},
+							"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+						},
+						"Syllabus": {
+							"folders": {},
+							"files": ["Syllabus.pdf"]
+						}
+					},
+					"files": []
+				}
+			},
+			"files": []
+		},
+		"Semester 2": {
+			"folders": {
+				"C Programming": {
+					"folders": {
+						"Notes": {
+							"folders": {},
+							"files": [
+								"Unit (1).pdf",
+								"Unit (2).pdf",
+								"Unit (3).pdf",
+								"Unit (4).pdf",
+								"Unit (5).pdf"
+							]
+						},
+						"PYQs": {
+							"folders": {},
+							"files": ["18CS1ESCCP.pdf", "22CS1ESICP.pdf", "22CS1ESPOP.pdf"]
+						},
+						"Syllabus": {
+							"folders": {},
+							"files": ["Principles of Programming using C.pdf"]
+						}
+					},
+					"files": []
+				},
+				"English 2": {
+					"folders": {
+						"Notes": {
+							"folders": {},
+							"files": [
+								"Unit (1).pdf",
+								"Unit (2).pdf",
+								"Unit (3).pdf",
+								"Unit (4).pdf",
+								"Unit (5).pdf"
+							]
+						},
+						"PYQs": {
+							"folders": {},
+							"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+						},
+						"Syllabus": {
+							"folders": {},
+							"files": ["Syllabus.pdf"]
+						}
+					},
+					"files": []
+				},
+				"Intro to Civil Engg": {
+					"folders": {
+						"Notes": {
+							"folders": {},
+							"files": [
+								"Unit (1).pdf",
+								"Unit (2).pdf",
+								"Unit (3).pdf",
+								"Unit (4).pdf",
+								"Unit (5).pdf"
+							]
+						},
+						"PYQs": {
+							"folders": {},
+							"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+						},
+						"Syllabus": {
+							"folders": {},
+							"files": ["Syllabus.pdf"]
+						}
+					},
+					"files": []
+				},
+				"Intro to Web Programming": {
+					"folders": {
+						"Notes": {
+							"folders": {},
+							"files": [
+								"Unit (1).pdf",
+								"Unit (2).pdf",
+								"Unit (3).pdf",
+								"Unit (4).pdf",
+								"Unit (5).pdf"
+							]
+						},
+						"PYQs": {
+							"folders": {},
+							"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+						},
+						"Syllabus": {
+							"folders": {},
+							"files": ["Syllabus.pdf"]
+						}
+					},
+					"files": []
+				},
+				"Maths 2": {
+					"folders": {
+						"Notes": {
+							"folders": {},
+							"files": [
+								"Unit (1).pdf",
+								"Unit (2).pdf",
+								"Unit (3).pdf",
+								"Unit (4).pdf",
+								"Unit (5).pdf"
+							]
+						},
+						"PYQs": {
+							"folders": {},
+							"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+						},
+						"Syllabus": {
+							"folders": {},
+							"files": ["Syllabus.pdf"]
+						}
+					},
+					"files": []
+				},
+				"Physics": {
+					"folders": {
+						"Notes": {
+							"folders": {},
+							"files": [
+								"Unit (1).pdf",
+								"Unit (2).pdf",
+								"Unit (3).pdf",
+								"Unit (4).pdf",
+								"Unit (5).pdf"
+							]
+						},
+						"PYQs": {
+							"folders": {},
+							"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+						},
+						"Syllabus": {
+							"folders": {},
+							"files": ["Syllabus.pdf"]
+						}
+					},
+					"files": []
+				}
+			},
+			"files": []
+		},
+		"Semester 3": {
+			"folders": {
+				"CSE": {
+					"folders": {
+						"COA": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"DBMS": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"DS": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"LD": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"OOJ": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["Unit (1).pdf", "Unit (2).pdf", "Unit (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"SDM": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						}
+					},
+					"files": []
+				},
+				"ISE": {
+					"folders": {
+						"COA": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"DLD": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"DSC": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"OOP": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"OPS": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"SDM": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						}
+					},
+					"files": []
+				}
+			},
+			"files": []
+		},
+		"Semester 4": {
+			"folders": {
+				"CSE": {
+					"folders": {
+						"ADA": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"CRP": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"LA": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"OS": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"SE": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"TFCS": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						}
+					},
+					"files": []
+				},
+				"ISE": {
+					"folders": {
+						"ADA": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"DBM": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"JAV": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"LAO": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"SEG": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						},
+						"TFC": {
+							"folders": {
+								"Notes": {
+									"folders": {},
+									"files": [
+										"Unit (1).pdf",
+										"Unit (2).pdf",
+										"Unit (3).pdf",
+										"Unit (4).pdf",
+										"Unit (5).pdf"
+									]
+								},
+								"PYQs": {
+									"folders": {},
+									"files": ["PYQ (1).pdf", "PYQ (2).pdf", "PYQ (3).pdf"]
+								},
+								"Syllabus": {
+									"folders": {},
+									"files": ["Syllabus.pdf"]
+								}
+							},
+							"files": []
+						}
+					},
+					"files": []
+				}
+			},
+			"files": []
+		}
+	},
+	"files": []
+}

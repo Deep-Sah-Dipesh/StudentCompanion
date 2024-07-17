@@ -6,9 +6,15 @@ import {
 	ScrollView,
 	Button,
 	Image,
+	Pressable,
 } from "react-native";
+import { Link } from "expo-router";
+
+import useBearStore from "../../../state/index";
 
 export default function App() {
+	const bears = useBearStore(({ bears }) => bears);
+
 	return (
 		<ScrollView style={styles.container}>
 			<View style={styles.header}>
@@ -19,7 +25,7 @@ export default function App() {
 					}} // Replace with your logo URL
 				/>
 
-				<Text style={styles.title}>Student Companion</Text>
+				<Text style={styles.title}>{bears}</Text>
 				<Button title="Dashboard" onPress={() => {}} />
 			</View>
 			<Text style={styles.subTitle}>Previous Year Question Papers</Text>
@@ -39,9 +45,21 @@ export default function App() {
 					<View key={index} style={styles.tableRow}>
 						<Text style={styles.courseCode}>Course_{index + 1} Code</Text>
 						<View style={styles.links}>
-							<Text style={styles.link}>Link</Text>
-							<Text style={styles.link}>Link</Text>
-							<Text style={styles.link}>Link</Text>
+							<Link href="/display/0" asChild>
+								<Pressable>
+									<Text style={styles.link}>Link3</Text>
+								</Pressable>
+							</Link>
+							<Link href="/display/0" asChild>
+								<Pressable>
+									<Text style={styles.link}>Link3</Text>
+								</Pressable>
+							</Link>
+							<Link href="/display/0" asChild>
+								<Pressable>
+									<Text style={styles.link}>Link3</Text>
+								</Pressable>
+							</Link>
 						</View>
 					</View>
 				))}

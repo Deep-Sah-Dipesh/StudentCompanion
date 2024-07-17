@@ -7,7 +7,10 @@ import {
 	Button,
 	Linking,
 	Image,
+	Pressable,
 } from "react-native";
+
+import { Link } from "expo-router";
 
 export default function App() {
 	const courses = [
@@ -37,10 +40,11 @@ export default function App() {
 					}} // Replace with your logo URL
 				/>
 				<Text style={styles.title}>Student Companion</Text>
-				<Button
-					title="Dashboard"
-					onPress={() => alert("Navigate to Dashboard")}
-				/>
+				<Link href="/dashboard" asChild>
+					<Pressable>
+						<Text style={styles.button}>Dashboard</Text>
+					</Pressable>
+				</Link>
 			</View>
 
 			<Text style={styles.sectionTitle}>Your Courses</Text>
@@ -155,5 +159,12 @@ const styles = StyleSheet.create({
 		textAlign: "center",
 		color: "blue",
 		textDecorationLine: "underline",
+	},
+	button: {
+		backgroundColor: "#3498db",
+		paddingVertical: 10,
+		paddingHorizontal: 20,
+		borderRadius: 5,
+		alignItems: "center",
 	},
 });

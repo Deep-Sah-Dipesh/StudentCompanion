@@ -8,8 +8,10 @@ import {
 	Linking,
 	Image,
 	Dimensions,
+	Pressable,
 } from "react-native";
 
+import { Link } from "expo-router";
 
 export default function App() {
 	const courses = [
@@ -40,10 +42,11 @@ export default function App() {
 				/>
 
 				<Text style={styles.title}>Student Companion</Text>
-				<Button
-					title="Dashboard"
-					onPress={() => alert("Navigate to Dashboard")}
-				/>
+				<Link href="/dashboard" asChild>
+					<Pressable>
+						<Text style={styles.button}>Dashboard</Text>
+					</Pressable>
+				</Link>
 			</View>
 
 			<Text style={styles.sectionTitle}>Syllabus Section</Text>
@@ -59,16 +62,13 @@ export default function App() {
 				{courses.map((course, index) => (
 					<View key={index} style={styles.tableRow}>
 						<Text style={styles.tableCell}>{course}</Text>
-						<Text
-							style={styles.tableCellLink}
-							// onPress={() =>
-							//   handlePress(
-							//     "https://bmsce.ac.in/Syllabus/CV/UG/UG%20Syllabus%202021-22.pdf",
-							//   )
-							// }
-						>
-							Link
-						</Text>
+						<View style={styles.links}>
+							<Link href="/display/2" asChild>
+								<Pressable>
+									<Text style={styles.link}>Link3</Text>
+								</Pressable>
+							</Link>
+						</View>
 					</View>
 				))}
 			</View>
@@ -77,6 +77,25 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+	button: {
+		backgroundColor: "#3498db",
+		paddingVertical: 10,
+		paddingHorizontal: 20,
+		borderRadius: 5,
+		alignItems: "center",
+	},
+	links: {
+		flex: 3,
+		flexDirection: "row",
+		justifyContent: "space-around",
+		alignItems: "center",
+		padding: 10,
+	},
+	link: {
+		color: "blue",
+		textDecorationLine: "underline",
+	},
+
 	container: {
 		flex: 1,
 		backgroundColor: "#fff",
