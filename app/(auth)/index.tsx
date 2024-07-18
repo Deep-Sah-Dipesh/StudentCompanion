@@ -18,7 +18,6 @@ export default function Hello() {
 				alignItems: "center",
 			}}>
 			<Redirect href="/signup" />
-			<Text>Hello</Text>
 		</View>
 	);
 }

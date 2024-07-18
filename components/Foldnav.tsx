@@ -41,8 +41,9 @@ const FoldersScreen = ({ title, foldersx }) => {
 					onPress={() => setSubject(folder)}>
 					<View style={styles.folderIcon}>
 						{/* Your folder icon component */}
-
-						<FontAwesome name="folder" size={20} color="#000" />
+						<Link href="/materials" asChild>
+							<FontAwesome name="folder" size={20} color="#000" />
+						</Link>
 					</View>
 					<Link href="/materials" asChild>
 						<Pressable
@@ -85,7 +86,7 @@ const styles = StyleSheet.create({
 		marginRight: 10,
 	},
 	folderName: {
-		fontSize: 16,
+		fontSize: 30,
 		fontWeight: "bold",
 	},
 });

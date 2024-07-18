@@ -1,14 +1,23 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Pressable } from "react-native";
 import { Card } from "react-native-paper";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { useRouter } from "expo-router";
 
-export default function Folder({ title, icon }) {
+export default function Folder({ title, icon, href }) {
+	const router = useRouter();
 	return (
 		<Card style={styles.card}>
 			<Card.Content style={styles.content}>
-				<MaterialCommunityIcons name={icon} size={40} color="blue" />
-				<Text style={styles.title}>{title}</Text>
+				<Pressable
+					style={styles.pressable}
+					onPress={() => {
+						router.push(`(protected)/${href}`);
+						console.log("pushed");
+					}}>
+					<MaterialCommunityIcons name={icon} size={40} color="blue" />
+					<Text style={styles.title}>{title}</Text>
+				</Pressable>
 			</Card.Content>
 		</Card>
 	);
@@ -23,12 +32,17 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 	},
 	content: {
+		flex: 1,
+		justifyContent: "center",
+		alignItems: "center",
+	},
+	pressable: {
 		justifyContent: "center",
 		alignItems: "center",
 	},
 	title: {
 		marginTop: 10,
-		fontSize: 16,
+		fontSize: 22,
 		textAlign: "center",
 	},
 });

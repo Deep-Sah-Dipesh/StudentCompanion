@@ -3,6 +3,7 @@ import { Drawer } from "expo-router/drawer";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { Role, useAuth } from "../../context/AuthContext";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
+import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 
 const DrawerLayout = () => {
 	const { authState } = useAuth();
@@ -20,7 +21,6 @@ const DrawerLayout = () => {
 						),
 					}}
 				/>
-
 				<Drawer.Screen
 					name="pyqs/index"
 					options={{
@@ -95,6 +95,35 @@ const DrawerLayout = () => {
 					}}
 				/>
 				<Drawer.Screen
+					name="dailydigest/index"
+					options={{
+						headerTitle: "Daily Digest",
+						drawerLabel: "Daily Digest",
+						drawerIcon: ({ size, color }) => (
+							<MaterialCommunityIcons
+								name="calendar-check"
+								size={size}
+								color={color}
+							/>
+						),
+					}}
+				/>
+				<Drawer.Screen
+					name="myinfo/index"
+					options={{
+						// drawerItemStyle: { display: "none" },
+						headerTitle: "Myinfo",
+						drawerLabel: "Myinfo",
+						drawerIcon: ({ size, color }) => (
+							<MaterialCommunityIcons
+								name="account-circle"
+								size={24}
+								color="black"
+							/>
+						),
+					}}
+				/>
+				<Drawer.Screen
 					name="logout/index"
 					options={{
 						// drawerItemStyle: { display: "none" },
@@ -106,6 +135,7 @@ const DrawerLayout = () => {
 						),
 					}}
 				/>
+
 				<Drawer.Screen
 					name="materials/index"
 					options={{
@@ -130,7 +160,6 @@ const DrawerLayout = () => {
 						),
 					}}
 				/>
-
 				<Drawer.Screen
 					name="dashboard/index"
 					options={{

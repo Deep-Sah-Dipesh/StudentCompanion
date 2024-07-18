@@ -8,16 +8,16 @@ const StackLayout = () => {
 	const segments = useSegments();
 	const router = useRouter();
 
-	useEffect(() => {
-		console.log("Change detected");
-		const inAuthGroup = segments[0] === "(protected)";
+	// useEffect(() => {
+	// 	console.log("Change detected");
+	// 	const inAuthGroup = segments[0] === "(protected)";
 
-		if (!authState?.authenticated && inAuthGroup) {
-			// router.replace("/(auth)");
-		} else if (authState?.authenticated === true) {
-			// router.replace("/(protected)");
-		}
-	}, [authState]);
+	// 	if (!authState?.authenticated && inAuthGroup) {
+	// 		// router.replace("/(auth)");
+	// 	} else if (authState?.authenticated === true) {
+	// 		// router.replace("/(protected)");
+	// 	}
+	// }, [authState]);
 
 	return (
 		<Stack>

@@ -37,38 +37,38 @@ const App = () => {
 	//   console.log("Password:", password);
 	// };
 
-	useEffect(() => {
-		const b = async () => {
-			const a = await fetch("http:10.230.1.109:3000/");
-			console.log(a);
-		};
+	// useEffect(() => {
+	// 	const b = async () => {
+	// 		const a = await fetch("http:10.230.1.109:3000/");
+	// 		console.log(a);
+	// 	};
 
-		b();
-	}, []);
+	// 	b();
+	// }, []);
 
-	const hello = async () => {
-		const b = async () => {
-			const a = await fetch("http:10.210.32.199:3000/");
-			console.log(a);
-		};
+	// const hello = async () => {
+	// 	const b = async () => {
+	// 		const a = await fetch("http:10.210.32.199:3000/");
+	// 		console.log(a);
+	// 	};
 
-		b();
+	// 	b();
 
-		const a = await fetch("http:10.210.32.199:3000/login", {
-			method: "POST",
-			headers: {
-				Accept: "application/json",
-				"Content-Type": "application/json",
-			},
-			body: JSON.stringify({
-				usn: usn,
-				password: password,
-			}),
-		});
+	// 	const a = await fetch("http:10.210.32.199:3000/login", {
+	// 		method: "POST",
+	// 		headers: {
+	// 			Accept: "application/json",
+	// 			"Content-Type": "application/json",
+	// 		},
+	// 		body: JSON.stringify({
+	// 			usn: usn,
+	// 			password: password,
+	// 		}),
+	// 	});
 
-		console.log(a, "hithesh");
-		onLogin1!("admin", "admin", "hjvjh");
-	};
+	// 	console.log(a, "hithesh");
+	// 	onLogin1!("admin", "admin", "hjvjh");
+	// };
 
 	const onSignInPress = async () => {
 		onLogin1!("admin", "admin", "jhvhjvjh");
@@ -107,7 +107,6 @@ const App = () => {
 				style={styles.button}
 				onPress={() => {
 					onSignInPress();
-					hello();
 					router.replace("/(protected)");
 				}}>
 				<Text style={styles.buttonText}>Sign In</Text>

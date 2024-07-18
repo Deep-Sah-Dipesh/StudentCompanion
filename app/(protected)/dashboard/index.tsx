@@ -10,7 +10,7 @@ export default function HomeScreen() {
 	const folders = [
 		{ title: "daily digest", icon: "folder" },
 		{ title: "my info", icon: "folder-account" },
-		{ title: "bookmarks", icon: "folder-star" },
+		// { title: "bookmarks", icon: "folder-star" },
 		{ title: "saved documents", icon: "folder-multiple" },
 	];
 

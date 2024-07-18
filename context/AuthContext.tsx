@@ -25,6 +25,7 @@ export const useAuth = () => {
 };
 
 export const AuthProvider = ({ children }: any) => {
+	const b = 0;
 	const [authState, setAuthState] = useState<{
 		authenticated: boolean | null;
 		username: string | null;
@@ -42,6 +43,7 @@ export const AuthProvider = ({ children }: any) => {
 	});
 
 	const login1 = (username: string, semester: number, branch: string) => {
+		console.log("login1");
 		// setAuthState({
 		// 	authenticated: true,
 		// 	username: username,
@@ -71,6 +73,7 @@ export const AuthProvider = ({ children }: any) => {
 	};
 
 	const login = (username: string, semester: number, branch: string) => {
+		console.log("login");
 		setAuthState({
 			authenticated: true,
 			username: username,

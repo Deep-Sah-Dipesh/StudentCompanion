@@ -26,7 +26,9 @@ const FoldersScreen = ({ title, foldersx = ["Notes", "PYQs", "Syllabus"] }) => {
 
 	return (
 		<ScrollView contentContainerStyle={styles.container}>
-			<Text style={styles.title}>{subject}</Text>
+			<Text style={styles.title}>
+				{"Subject:"} {subject}
+			</Text>
 			{foldersx.map((folder) => (
 				<TouchableOpacity
 					key={folder}
@@ -77,7 +79,7 @@ const styles = StyleSheet.create({
 		marginRight: 10,
 	},
 	folderName: {
-		fontSize: 16,
+		fontSize: 26,
 		fontWeight: "bold",
 	},
 });
