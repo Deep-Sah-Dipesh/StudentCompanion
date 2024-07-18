@@ -43,7 +43,7 @@ export const AuthProvider = ({ children }: any) => {
 	});
 
 	const login1 = (username: string, semester: number, branch: string) => {
-		console.log("login1");
+		console.log("login");
 		// setAuthState({
 		// 	authenticated: true,
 		// 	username: username,
@@ -73,7 +73,7 @@ export const AuthProvider = ({ children }: any) => {
 	};
 
 	const login = (username: string, semester: number, branch: string) => {
-		console.log("login");
+		console.log("signup");
 		setAuthState({
 			authenticated: true,
 			username: username,

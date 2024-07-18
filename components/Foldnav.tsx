@@ -31,8 +31,8 @@ const FoldersScreen = ({ title, foldersx }) => {
 	return (
 		<ScrollView contentContainerStyle={styles.container}>
 			<Text style={styles.title}>
-				{`  Branch: ${authState?.branch.toUpperCase()}`}{" "}
-				{`                       Semester: ${title}`}
+				{` Branch: ${authState?.branch.toUpperCase()}`}{" "}
+				{`               Semester: ${title}`}
 			</Text>
 
 			{foldersx.map((folder) => (
@@ -61,7 +61,7 @@ const FoldersScreen = ({ title, foldersx }) => {
 
 const styles = StyleSheet.create({
 	title: {
-		fontSize: 26,
+		fontSize: 30,
 		fontWeight: "bold",
 	},
 	container: {

@@ -6,6 +6,7 @@ import {
 	TouchableOpacity,
 	StyleSheet,
 	Image,
+	Button,
 } from "react-native";
 import axios from "axios";
 import { AuthProvider, useAuth } from "@/context/AuthContext";
@@ -111,11 +112,22 @@ const App = () => {
 				}}>
 				<Text style={styles.buttonText}>Sign In</Text>
 			</TouchableOpacity>
+			<TouchableOpacity style={styles.signOutButton}>
+				<Button
+					title="Not a member? Sign up"
+					onPress={() => {
+						router.push("/signup");
+					}}
+				/>
+			</TouchableOpacity>
 		</View>
 	);
 };
 
 const styles = StyleSheet.create({
+	signOutButton: {
+		marginTop: 10,
+	},
 	container: {
 		flex: 1,
 		justifyContent: "center",

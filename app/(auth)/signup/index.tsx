@@ -11,6 +11,7 @@ import {
 } from "react-native";
 import { Picker } from "@react-native-picker/picker";
 import { AuthProvider, useAuth } from "@/context/AuthContext";
+import { useRouter } from "expo-router";
 
 export default function ProfileScreen() {
 	const [fullName, setFullName] = useState("");
@@ -19,6 +20,8 @@ export default function ProfileScreen() {
 	const [semester, setSemester] = useState("");
 	const [password, setPassword] = useState("");
 	const { onLogin } = useAuth();
+
+	const router = useRouter();
 
 	const hello = async () => {
 		const b = async () => {
@@ -93,9 +96,6 @@ export default function ProfileScreen() {
 							uri: "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/BMS_College_of_Engineering.svg/1024px-BMS_College_of_Engineering.svg.png",
 						}} // Replace with your logo URL
 					/>
-					<TouchableOpacity style={styles.signOutButton}>
-						<Button title="SIGNOUT" onPress={() => {}} />
-					</TouchableOpacity>
 				</View>
 				<Text style={styles.title}>Student Companion</Text>
 				<Text style={styles.heading}>Set up your profile</Text>
@@ -159,6 +159,18 @@ export default function ProfileScreen() {
 					<Text style={styles.saveButtonText}>Save my Profile</Text>
 				</TouchableOpacity>
 			</ScrollView>
+			<View style={styles.footer}>
+				<TouchableOpacity>
+					<Text
+						style={styles.signOutButton}
+						title="Login"
+						onPress={() => {
+							router.push("/login");
+						}}>
+						Proceed to Login
+					</Text>
+				</TouchableOpacity>
+			</View>
 		</View>
 	);
 }
@@ -170,30 +182,30 @@ const styles = StyleSheet.create({
 	},
 	container: {
 		flexGrow: 1,
-		padding: 20,
+		paddingTop: 2,
+		paddingHorizontal: 20,
 		backgroundColor: "#fff",
-		paddingBottom: 40, // Added paddingBottom to ensure the bottom elements are not cut off
+		paddingBottom: 60, // Added paddingBottom to ensure the bottom elements are not cut off
 	},
 	header: {
 		flexDirection: "row",
 		justifyContent: "center",
 		alignItems: "center",
-		marginBottom: 20,
+		marginBottom: 4,
 	},
 	title: {
 		fontSize: 24,
 		fontWeight: "bold",
 		alignSelf: "center",
-		marginVertical: 20,
+		marginVertical: 3,
 	},
 	signOutButton: {
-		position: "absolute",
-		right: 0,
-		top: 0,
-	},
-	signOutText: {
+		width: "100%",
+		paddingVertical: 10,
+		backgroundColor: "#0066cc",
+		color: "white",
+		textAlign: "center",
 		fontSize: 16,
-		color: "black",
 	},
 	heading: {
 		fontSize: 20,
@@ -204,7 +216,7 @@ const styles = StyleSheet.create({
 	subHeading: {
 		fontSize: 14,
 		textAlign: "center",
-		marginBottom: 20,
+		marginBottom: 2,
 	},
 	label: {
 		fontSize: 16,
@@ -226,7 +238,7 @@ const styles = StyleSheet.create({
 		marginVertical: 5,
 	},
 	saveButton: {
-		backgroundColor: "black",
+		backgroundColor: "#0066cc",
 		padding: 15,
 		borderRadius: 5,
 		marginTop: 20,
@@ -234,6 +246,8 @@ const styles = StyleSheet.create({
 	},
 	saveButtonText: {
 		color: "white",
+		backgroundColor: "#0066cc",
+
 		fontSize: 16,
 	},
 	logo: {
@@ -241,5 +255,10 @@ const styles = StyleSheet.create({
 		height: 50, // Adjust as per your logo's size
 		alignSelf: "center",
 		marginTop: 20,
+	},
+	footer: {
+		paddingHorizontal: 20,
+		backgroundColor: "#fff",
+		justifyContent: "flex-end",
 	},
 });
