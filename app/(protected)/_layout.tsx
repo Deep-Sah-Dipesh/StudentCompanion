@@ -112,8 +112,8 @@ const DrawerLayout = () => {
 					name="myinfo/index"
 					options={{
 						// drawerItemStyle: { display: "none" },
-						headerTitle: "Myinfo",
-						drawerLabel: "Myinfo",
+						headerTitle: "My info",
+						drawerLabel: "My Info",
 						drawerIcon: ({ size, color }) => (
 							<MaterialCommunityIcons
 								name="account-circle"

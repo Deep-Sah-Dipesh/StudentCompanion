@@ -23,29 +23,29 @@ export default function ProfileScreen() {
 
 	const router = useRouter();
 
-	const hello = async () => {
-		const b = async () => {
-			const a = await fetch("http:10.210.32.199:3000/");
-			console.log(a);
-		};
+	// const hello = async () => {
+	// 	const b = async () => {
+	// 		const a = await fetch("http:10.210.32.199:3000/");
+	// 		console.log(a);
+	// 	};
 
-		b();
+	// 	b();
 
-		const a = await fetch("http:10.210.32.199:3000/login", {
-			method: "POST",
-			headers: {
-				Accept: "application/json",
-				"Content-Type": "application/json",
-			},
-			body: JSON.stringify({
-				usn: usn,
-				password: password,
-			}),
-		});
+	// 	const a = await fetch("http:10.210.32.199:3000/login", {
+	// 		method: "POST",
+	// 		headers: {
+	// 			Accept: "application/json",
+	// 			"Content-Type": "application/json",
+	// 		},
+	// 		body: JSON.stringify({
+	// 			usn: usn,
+	// 			password: password,
+	// 		}),
+	// 	});
 
-		console.log(a, "hithesh");
-		onLogin!("admin", "admin");
-	};
+	// 	console.log(a, "hithesh");
+	// 	onLogin!("admin", "admin");
+	// };
 
 	const saveProfile = async () => {
 		onLogin!(usn, semester, branch);
@@ -58,14 +58,14 @@ export default function ProfileScreen() {
 			semester: semester,
 			password: password,
 		};
-		const b = await fetch("http:10.230.1.109:3000/register", {
-			method: "POST",
-			headers: {
-				Accept: "application/json",
-				"Content-Type": "application/json",
-			},
-			body: JSON.stringify(data),
-		});
+		// const b = await fetch("http:10.230.1.109:3000/register", {
+		// 	method: "POST",
+		// 	headers: {
+		// 		Accept: "application/json",
+		// 		"Content-Type": "application/json",
+		// 	},
+		// 	body: JSON.stringify(data),
+		// });
 
 		// Send POST request using fetch
 		// fetch("http:10.230.1.109:3000/request", {
@@ -200,12 +200,12 @@ const styles = StyleSheet.create({
 		marginVertical: 3,
 	},
 	signOutButton: {
-		width: "100%",
 		paddingVertical: 10,
 		backgroundColor: "#0066cc",
 		color: "white",
 		textAlign: "center",
 		fontSize: 16,
+		marginHorizontal: 30,
 	},
 	heading: {
 		fontSize: 20,
@@ -240,6 +240,7 @@ const styles = StyleSheet.create({
 	saveButton: {
 		backgroundColor: "#0066cc",
 		padding: 15,
+		marginHorizontal: 50,
 		borderRadius: 5,
 		marginTop: 20,
 		alignItems: "center",
